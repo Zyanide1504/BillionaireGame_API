@@ -43,7 +43,7 @@ def get_api():
     df = df[df["Question_ID"]==question_id]
     return df.to_json(orient="records")
 
-@app.route('/get_all_question', methods=['GET'], endpoint='func2')
+@app.route('/get_all_questionID', methods=['GET'], endpoint='func2')
 def get_api():
     df = pd.read_csv(url)
     df = df[["Question_ID","Score"]]
