@@ -1,7 +1,14 @@
 from flask import Flask, jsonify
 from  flask import  request
+import  pandas as pd
 
 app = Flask(__name__)
+
+sheet_id = '1HEUEIZLdlPOenFE6Ah6WX0MbWPajd5n6KLl-sQcJW5k'
+sheet_name = 'Zai-game-question'
+url = f'https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}'
+
+
 
 data = [
         {
@@ -26,12 +33,23 @@ def hello():
     return "Hello Billionaire"
 
 
-@app.route('/get_question_by_id', methods=['GET'])
+@app.route('/get_question_by_id', methods=['GET'],endpoint='func1')
 def get_api():
     # if key doesn't exist, returns None
     question_id = request.args.get('question_id')
 
-    return '''<h1>The question_id value is: {}</h1>'''.format(question_id)
+    df = pd.read_csv(url)
+
+    df = df[df["Question_ID"]==question_id]
+    return df.to_json(orient="records")
+
+@app.route('/get_all_question', methods=['GET'], endpoint='func2')
+def get_api():
+    df = pd.read_csv(url)
+    df = df[["Question_ID","Score"]]
+    return  df.to_json(orient="records")
+
+
 
 if __name__ == "__main__":
     app.run(debug=False)

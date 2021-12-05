@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zai-api",
+  "private_key_id": "65ccc632fd0f863a50389250236378260460b451",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCOAsecUhZI6Gz9\nIoo0tEGw7wQv2jTyLjK1OrY0Kz0GUmQxIHa6P7bBZ3QZryKEa8ERmXMdIE7OFiai\n3J/Cyl8lFSfhnqOd2+lkuWDW09b/PWiAf6J1wUSTdFOIZM+M7XEert4PBDOnvBVb\nIYJZnKHQaEi9ReLgA+OuyPU9YHUR5uAreWryDW8CLEkXBGN43fHcK6XV39uAd9pB\nunBxNhcPgxXm+5lOlO+0uOJCgDKr4udVtYzeSof3rGolHeZLU83QAQt7/lLrFzxc\n555gz+wUA5nQMavFnicmPX3zkHhGf6PzRu0ZE2Ef4mZINREEm2+4ZhRFrLEj0UPr\nIpYcnjszAgMBAAECgf9OZo/NEtnlZmwaqaGjdzYieH0smKCiaN7rLtQTTnZiXG+e\nr6LchaW1IL2ixbhIuInegtkKkMubpfRZSsmTa3vGUpJcp+MB7mbr32xB2LIu4mLP\nOP0isDsr17eblWGrFsCyL9hoceloBm5ujBFqvQ6YqvooLxe8lRPIwH6kDpyTRLsk\nOihK3s0SiCLdVhI4U3feWInRbgosZIKX6djGy01mV0d2gOhFImM1kYFUTLkDnmMI\n+mNCsIgXaGYJLIFCP9R+7eC6bPYAiINK//kl59vWfeOtNTZcofM1qFna8EjXrdpW\nlIn7Iu72BIMzPX6ukmApY45GCn5VNMXCfn5UisECgYEAxhSU7RVHjpDGiUiToYuR\ny05831IG9kMM4xiM3m+LdRrNutP7tU3dirmWSJlv4QTKQqLgp+i6GzHhu2d5D99v\n/RY4l+lYiN5XYkFApEHzyGcB1Dy0ZQ11bW9dhjC7svJBi2RH88jSFmydZcafFbkY\nfw490GpWxAI4eQBjgDr9GT8CgYEAt4kU2xwedkhXfBHPqpRtUaw1SKIX8gi1zYaZ\nc8aLF/G7Xw1a/mAJhiuEUzRI+r6g+UAOsc9i6iaBV5j8AlEqS8DcTY1EinuNaOnR\nXN8URyi/2cyr98z328+8iYySGkD81hyzuYElEcTeG0gSTsG6/J6CIqgkPCb4mhK3\nYavUTQ0CgYEAiE+pnO3D7Iwc1GSpk8YkcrB0poogWGAUAkPmzTwd0Fy9rxAqa75F\n8y18CkHtCADv36OOzn4NdKGDIiA244Fz48ri70eZsbawk+Erxt3MEeExFQkha1kz\nsjetOKdYw/CKwo4kJdPRH7VnK57f42cZQHZge4hyZTjR/BMUZi4x9qkCgYBBUYwW\nnt9IgV6BTWV28/QkCQG9o9KZ1Pe++ZRLW/HMx79DiOFFfrBlC7/ATO9cLdPkYSPZ\nrFErvCB0KIIn4PMIms7M2uX10xr0p6JXRx1UZfBBd1IMkunzVO9olJq6tT5GhViB\nQLEMrd/OHcxGMzR1C4SNCQI8VjJLwzV4kUqxUQKBgCQ5AYCyQlKA4RXsapnwsbAU\nV5KQen9ZQGJ9LG6BXv4keatlM9SYpl+RPbdhYNP3/rOQzXbhIbEWYJHUGvSo3v0+\nIzky1SojcCIsnYRmc5TgEEJ/uM6/yLGDY+1nbZDimKiqxzGEFM2EJCKvovfLLlYx\nmaj2qsgb91Is4rsBxNOz\n-----END PRIVATE KEY-----\n",
+  "client_email": "zai-gametest-api@zai-api.iam.gserviceaccount.com",
+  "client_id": "109039632120292362159",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/zai-gametest-api%40zai-api.iam.gserviceaccount.com"
+}
