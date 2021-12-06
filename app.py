@@ -40,13 +40,13 @@ def get_api():
 
     df = pd.read_csv(url)
 
-    df = df[df["Question_ID"]==question_id]
+    df = df[df["question_ID"]==question_id]
     return df.to_json(orient="records")
 
 @app.route('/get_all_questionID', methods=['GET'], endpoint='func2')
 def get_api():
     df = pd.read_csv(url)
-    df = df[["Question_ID","Score"]]
+    df = df[["question_ID","score"]]
     return  df.to_json(orient="records")
 
 
